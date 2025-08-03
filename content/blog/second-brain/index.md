@@ -11,7 +11,9 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-Create a personal knowledge base and share your knowledge with your peers.
+Adding some random text for testing.
+
+Create a personal knowledge base and share your knowledge with your peers. 
 
 Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.
 

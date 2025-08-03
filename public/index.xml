@@ -94,7 +94,8 @@ for your site. Themes are fully customizable.&lt;/p>
 &lt;p>Copyright 2016-present
 .&lt;/p>
 &lt;p>Released under the
-license.&lt;/p></description></item><item><title>🧠 Sharpen your thinking with a second brain</title><link>http://localhost:1313/blog/second-brain/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/blog/second-brain/</guid><description>&lt;p>Create a personal knowledge base and share your knowledge with your peers.&lt;/p>
+license.&lt;/p></description></item><item><title>🧠 Sharpen your thinking with a second brain</title><link>http://localhost:1313/blog/second-brain/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/blog/second-brain/</guid><description>&lt;p>Adding some random text for testing.&lt;/p>
+&lt;p>Create a personal knowledge base and share your knowledge with your peers.&lt;/p>
 &lt;p>Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p>
 &lt;p>Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p>
 &lt;p>Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or via a private GitHub repository and password-protected site just for yourself.&lt;/p>
@@ -201,7 +202,7 @@ console.log('code block');
 format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-945237681" class="chart">&lt;/div>
+&lt;div id="chart-569423178" class="chart">&lt;/div>
 &lt;script>
 async function fetchChartJSON() {
 console.debug('Hugo Blox fetching chart JSON...')
@@ -217,7 +218,7 @@ return;
 clearInterval( a );
 fetchChartJSON().then(chart => {
 console.debug('Plotting chart...')
-window.Plotly.newPlot('chart-945237681', chart.data, chart.layout, {responsive: true});
+window.Plotly.newPlot('chart-569423178', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
